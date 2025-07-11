@@ -1,0 +1,52 @@
+.plus-jakarta-sans {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.plus-jakarta-sans-normal {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* Shard-style */
+.btn {
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 36px;
+}
+
+.text-cent {
+    text-align: center;
+    padding:60px;
+}
+
+.png {
+    background-image:url(../Assets/Hero-bg.png);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.log {
+    font: weight 900px;
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+.head {
+    color: #252432;
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 37px;  
+}
