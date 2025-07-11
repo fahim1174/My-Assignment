@@ -20,6 +20,11 @@
     border-radius: 10px;
     border: none;
     padding: 12px 36px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: brown;
 }
 
 .text {
@@ -68,7 +73,7 @@ nav {
 /* main-stayl */
 .main {
     max-width: 1140px;
-    max-height: 328px;
+    /* max-height: 328px; */
     justify-items: center;
     margin: 16px auto 0px;
 }
@@ -127,20 +132,23 @@ nav {
 .containner {
     display: flex;
     justify-content: space-around;
-    gap: 20px;  
+    gap: 20px;
 }
-.back{
+
+.back {
     border-radius: 14px;
     background-color: #F2EDED;
 }
-.box{
+
+.box {
     margin-top: 140px;
 }
+
 .what {
     font-weight: bold;
     font-size: 15px;
-     margin-bottom: 50px;
-     text-align: center;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .c-head {
@@ -183,4 +191,68 @@ nav {
     font-size: 10px;
     color: #757575a4;
     margin-top: auto;
+}
+
+/* form */
+.Get {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.f-c {
+    width: 500px;
+}
+
+.form {
+    margin-bottom: 20px;
+   
+}
+
+.touch {
+    align-items: center;
+    margin-top: 93px;
+    display: flex;
+    padding: 70px 0px;
+    gap: 115px;
+}
+
+.bo {
+    width: 300px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F2EDED;
+}
+.ko {
+    color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.lo {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: auto;
+}
+.grap{
+    text-align: center;
+    color: #8987A1;
+    font-size: 13px;
+    margin-top: auto;
+}
+.ab{
+     text-align: center;
+    color: #8987A1;
+    font-size: 13px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-left: 500px;
+}
+.re{
+    border: none;
+    background-color: #F2EDED;
+    border-radius: 5px;
 }
