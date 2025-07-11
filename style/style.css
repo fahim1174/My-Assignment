@@ -96,22 +96,24 @@ nav {
     justify-items: center;
     margin-top: 116px;
     padding: 50px 80px;
-    background-color:#4d47ff28;
+    background-color: #4d47ff28;
     max-width: 1140px;
     max-height: 300px;
     border-radius: 24px;
 }
-.a{
+
+.a {
     font-weight: bold;
     margin-bottom: auto;
     width: 100px;
     color: #4E47FF;
     text-align: center;
 }
-.par{
+
+.par {
     color: #0000006b;
     font-size: 15px;
-    margin-top:auto;
+    margin-top: auto;
 }
 
 .persent {
@@ -119,4 +121,66 @@ nav {
     display: flex;
     justify-content: space-around;
     gap: 150px;
+}
+
+/* card-design */
+.containner {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;  
+}
+.back{
+    border-radius: 14px;
+    background-color: #F2EDED;
+}
+.box{
+    margin-top: 140px;
+}
+.what {
+    font-weight: bold;
+    font-size: 15px;
+     margin-bottom: 50px;
+     text-align: center;
+}
+
+.c-head {
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+
+.cards {
+    padding: 24px;
+}
+
+.c-d {
+    font-size: 14px;
+    color: #1E1E1E;
+    width: 300px;
+    height: 44px;
+    margin-top: auto;
+}
+
+.card-item {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+
+.review {
+    font-size: 10px;
+    font-weight: bold;
+    color: #757575;
+    margin-bottom: auto;
+}
+
+.dat {
+    font-size: 10px;
+    color: #757575a4;
+    margin-top: auto;
 }
