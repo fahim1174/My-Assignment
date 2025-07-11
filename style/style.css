@@ -22,13 +22,27 @@
     padding: 12px 36px;
 }
 
+.text {
+    width: 400px;
+    font-size: 20px;
+    color: #2524329a;
+}
+
+.font {
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+
+}
+
+
 .text-cent {
     text-align: center;
-    padding:60px;
+    padding: 60px;
 }
 
 .png {
-    background-image:url(../Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
 }
 
 nav {
@@ -48,5 +62,61 @@ nav {
     color: #252432;
     font-weight: bold;
     font-size: 65px;
-    margin-bottom: 37px;  
+    margin-bottom: 37px;
+}
+
+/* main-stayl */
+.main {
+    max-width: 1140px;
+    max-height: 328px;
+    justify-items: center;
+    margin: 16px auto 0px;
+}
+
+.see {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    margin-top: 110px;
+}
+
+.see-text {
+    text-align: left;
+}
+
+.see img {
+    width: 380px;
+    height: 290px;
+    border-radius: 48px;
+}
+
+/* persenr */
+.per-container {
+    justify-items: center;
+    margin-top: 116px;
+    padding: 50px 80px;
+    background-color:#4d47ff28;
+    max-width: 1140px;
+    max-height: 300px;
+    border-radius: 24px;
+}
+.a{
+    font-weight: bold;
+    margin-bottom: auto;
+    width: 100px;
+    color: #4E47FF;
+    text-align: center;
+}
+.par{
+    color: #0000006b;
+    font-size: 15px;
+    margin-top:auto;
+}
+
+.persent {
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
 }
